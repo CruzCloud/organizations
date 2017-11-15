@@ -1,1 +1,22 @@
-.idea
+# Created by .ignore support plugin (hsz.mobi)
+### Terraform template
+# Compiled files
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+
+# Module directory
+terraform
+.terraform/
+
+# Variable values for development
+terraform.tfvars
+
+.gitignore
+.idea/
+
+.build-maker
+build-maker
+modules/custodian/
+modules/packer/
+
